@@ -31,9 +31,8 @@ Updating the data text file with new draws will improve the accuracy of the pred
 ## How to Use:
 
 1. Place your raw data file (e.g., `data.txt`) in the project folder.
-2. Run the jupyter scripts in the following order:
-   ```bash
-convert_txt_to_csv
-clean_csv
-analyze_all_time
-analyze_last_90_days
+2. Run the Jupyter notebook script (`lottery-calculator.ipynb`) in the following order:
+   - `convert_txt_to_csv`
+   - `clean_csv`
+   - `analyze_all_time`
+   - `analyze_last_90_days`
